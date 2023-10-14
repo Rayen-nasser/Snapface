@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+
+.form-card, .face-snap-card{
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #333;
+}
+
+label {
+  color: #666;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Add this line */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.action-buttons {
+  text-align: right;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.face-snap-card {
+  img {
+    width: 100%;
+  }
+  h2 {
+    margin-bottom: 0;
+  }
+  p {
+    font-weight: 300;
+    font-size: 16px;
+  }
+}

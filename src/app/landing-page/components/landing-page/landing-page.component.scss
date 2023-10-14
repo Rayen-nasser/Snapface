@@ -1,0 +1,86 @@
+/* Your SCSS file */
+
+.landing-block {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  height: 100vh;
+  padding: 20px;
+
+  .left {
+    flex: .5; /* Take up remaining space on the left */
+    max-width: 25%; /* Limit the width of the left side */
+  }
+
+  .right {
+    flex: .5; /* Take up remaining space on the right */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    max-width: 75%; /* Limit the width of the right side */
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+
+    label {
+      margin-bottom: 10px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .landing-links {
+    margin-top: 20px;
+
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .add-new-facesnap {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 24px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    background:#007bff;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+  }
+}
